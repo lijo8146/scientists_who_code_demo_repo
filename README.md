@@ -72,7 +72,7 @@ This repository is licensed under the MIT License.
 
 ## Contact
 For questions or collaboration opportunities, please contact:
-[Lilly Jones](lijo8146@colorado.edu)
+[Lilly Jones]<lijo8146@colorado.edu>
 
 
 
