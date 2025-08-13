@@ -33,11 +33,11 @@ scientists-who-code-demo/
 git clone https://github.com/lijo8146/scientists_who_code_demo_repo/
 cd scientists-who-code-demo
 
-2. Set up the environment (Conda)
+3. Set up the environment (Conda)
 conda env create -f environment.yml
 conda activate scientists-who-code
 
-3. Open Jupyter Notebooks
+4. Open Jupyter Notebooks
 jupyter lab
 
 ## Workshop Activities
