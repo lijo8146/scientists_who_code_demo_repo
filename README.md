@@ -32,7 +32,7 @@ scientists-who-code-demo/
 1. Clone the repository
 git clone https://github.com/lijo8146/scientists_who_code_demo_repo/
 
-cd scientists-who-code-demo_repo
+    cd scientists-who-code-demo_repo
 
 3. Set up the environment (Conda)
 conda env create -f environment.yml
