@@ -19,14 +19,7 @@ This example repository provides:
 - A teaching aid for project managers leading mixed-skill, interdisciplinary teams.
 
 ## Repository Structure
-scientists-who-code-demo/
-├── data/                  # Example datasets (CSV, GeoJSON, etc.)
-├── notebooks/             # Jupyter Notebooks with step-by-step workflows
-├── scripts/               # Python scripts (reusable analysis functions)
-├── docs/                  # Additional documentation or guides
-├── .gitignore             # Files to be ignored by Git
-├── environment.yml        # Conda environment setup for reproducibility
-└── README.md              # This file
+
 
 ## Getting Started
 1. Clone the repository
