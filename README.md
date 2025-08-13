@@ -30,7 +30,7 @@ scientists-who-code-demo/
 
 ## Getting Started
 1. Clone the repository
-git clone https://github.com/your-org/scientists-who-code-demo.git
+git clone https://github.com/lijo8146/scientists_who_code_demo_repo/
 cd scientists-who-code-demo
 
 2. Set up the environment (Conda)
