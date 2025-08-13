@@ -33,7 +33,8 @@ git clone https://github.com/lijo8146/scientists_who_code_demo_repo/
     conda activate scientists-who-code
 
 5. Open Jupyter Notebooks
-jupyter lab
+   
+    jupyter lab
 
 ## Workshop Activities
 This repository supports the following hands-on learning activities:
