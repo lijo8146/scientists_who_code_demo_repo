@@ -72,8 +72,7 @@ This repository is licensed under the MIT License.
 
 ## Contact
 For questions or collaboration opportunities, please contact:
-Lilly Jones – CU Boulder
-lijo8146@coloradu.
+[Lilly Jones](lijo8146@colorado.edu)
 
 
 
