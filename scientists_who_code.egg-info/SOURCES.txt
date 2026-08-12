@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+scientists_who_code.egg-info/PKG-INFO
+scientists_who_code.egg-info/SOURCES.txt
+scientists_who_code.egg-info/dependency_links.txt
+scientists_who_code.egg-info/top_level.txt
+src/__init__.py
+src/download.py
+src/plotting.py
+src/processing.py
+tests/test_processing.py
