@@ -1,0 +1,10 @@
+cff-version: 1.2.0
+message: "If you use this workflow, please cite it."
+title: "Scientists Who Code: Reproducible Environmental Data Workflow"
+type: software
+authors:
+  - family-names: Jones
+    given-names: Lilly
+license: MIT
+version: 0.1.0
+repository-code: "https://github.com/lijo8146/scientists_who_code_demo_repo"

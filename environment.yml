@@ -1,0 +1,13 @@
+name: scientists-who-code
+channels:
+  - conda-forge
+dependencies:
+  - python=3.11
+  - pandas=2.2.*
+  - matplotlib=3.9.*
+  - requests=2.32.*
+  - jupyterlab=4.2.*
+  - pytest=8.3.*
+  - pip
+  - pip:
+      - -e .
