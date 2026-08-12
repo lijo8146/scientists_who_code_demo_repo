@@ -50,10 +50,10 @@ This repository supports the following hands-on learning activities:
 
 ## Ethical & Open Science Principles
 This demo reinforces:
-- Transparency — All code and data are open and documented.
-- Inclusivity — Materials are accessible to participants with varying technical backgrounds.
-- Reproducibility — Clear setup instructions ensure others can re-run analyses.
-- Respect for Indigenous Data Sovereignty — Follow CARE Principles when using Tribal data.
+- Transparency: All code and data are open and documented.
+- Inclusivity: Materials are accessible to participants with varying technical backgrounds.
+- Reproducibility: Clear setup instructions ensure others can re-run analyses.
+- Respect for Indigenous Data Sovereignty: Follow FAIR and CARE Principles when using Tribal data.
 
 ## Contributing
 We welcome contributions from all skill levels.
