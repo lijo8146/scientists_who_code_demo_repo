@@ -6,7 +6,7 @@ This repository has two connected layers: a learner-friendly template you can fo
 
 ## What you will build
 
-You will download one summer of daily streamflow, check and document it, summarize it, and create a transparent time-series figure. After running the notebooks, the result is saved to `outputs/figures/boulder_creek_streamflow.png`.
+You will download one summer of daily streamflow, check and document it, subset a CSV, map the streamgage in a projected coordinate system, and create a transparent time-series figure. After running the notebooks, results are saved to `outputs/figures/`.
 
 ![Generated Boulder Creek streamflow result](outputs/figures/boulder_creek_streamflow.png)
 

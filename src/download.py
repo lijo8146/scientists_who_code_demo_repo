@@ -23,6 +23,16 @@ def download_streamflow():
     payload = response.json()
     RAW_DIR.mkdir(parents=True, exist_ok=True)
     (RAW_DIR / "usgs_daily_streamflow.json").write_text(json.dumps(payload, indent=2))
+    source_info = payload["value"]["timeSeries"][0]["sourceInfo"]
+    geog = source_info["geoLocation"]["geogLocation"]
+    location = {
+        "site_no": source_info["siteCode"][0]["value"],
+        "site_name": source_info["siteName"],
+        "latitude_wgs84": float(geog["latitude"]),
+        "longitude_wgs84": float(geog["longitude"]),
+        "coordinate_reference_system": "EPSG:4326 (WGS 84)",
+    }
+    (RAW_DIR / "site_location.json").write_text(json.dumps(location, indent=2))
     provenance = {
         "source": "USGS National Water Information System daily values service",
         "source_url": response.url,

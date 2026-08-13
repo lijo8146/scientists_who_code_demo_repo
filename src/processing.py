@@ -30,6 +30,16 @@ def make_processed_data(raw_file=RAW_FILE, output_file=PROCESSED_FILE) -> pd.Dat
     return frame
 
 
+def subset_observations(frame: pd.DataFrame, start=None, end=None) -> pd.DataFrame:
+    """Select analysis fields, optionally filter dates, then drop missing discharge."""
+    subset = frame[["date", "discharge_cfs", "qualifier"]].copy()
+    if start is not None:
+        subset = subset.loc[subset["date"] >= pd.Timestamp(start)]
+    if end is not None:
+        subset = subset.loc[subset["date"] <= pd.Timestamp(end)]
+    return subset.dropna(subset=["discharge_cfs"]).reset_index(drop=True)
+
+
 if __name__ == "__main__":
     frame = make_processed_data()
     print(f"Wrote {len(frame)} daily records to {PROCESSED_FILE.relative_to(ROOT)}.")

@@ -6,6 +6,7 @@ dependencies:
   - pandas=2.2.*
   - matplotlib=3.9.*
   - requests=2.32.*
+  - pyproj=3.6.*
   - jupyterlab=4.2.*
   - pytest=8.3.*
   - pip
