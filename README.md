@@ -36,6 +36,12 @@ python -m pytest
 jupyter lab
 ```
 
+If you created the environment before a dependency was added, update it from the repository root, then restart the Jupyter kernel:
+
+```bash
+conda env update -f environment.yml --prune
+```
+
 Open the notebooks in numeric order. Alternatively, regenerate the completed exemplar without Jupyter:
 
 ```bash
